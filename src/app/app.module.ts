@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AcordionComponent } from './acordion/acordion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CabeceraComponent
+    CabeceraComponent,
+    AcordionComponent
   ],
   imports: [
     BrowserModule,
